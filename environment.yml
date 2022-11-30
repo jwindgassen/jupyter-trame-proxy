@@ -1,0 +1,12 @@
+# run: conda env create --file environment.yml
+name: jupyter-trame
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab>=2
+  - jupyterlab_server
+  - jupyter-server-proxy>=3.1.0
+  - jupyter_conda
+  - pip
+  - pip:
+      - -r file:requirements.txt
