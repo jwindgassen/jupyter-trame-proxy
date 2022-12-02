@@ -10,4 +10,4 @@
 # module load trame
 # module load ParaView/5.10.1-EGL
 
-python -c "from pv_visualizer.app.main import main; main(port=$1, no_http=True)"
+python -c "from pv_visualizer.app.main import main; main(port=$1, open_browser=False, timeout=0)"
