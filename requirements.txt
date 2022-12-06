@@ -1,3 +1,4 @@
 jupyter-server-proxy>=1.5
 trame
 pv-visualizer>=0.1.2
+pv-server>=2.6.0
