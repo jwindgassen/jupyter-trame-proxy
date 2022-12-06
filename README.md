@@ -37,9 +37,6 @@ jupyter lab build
 ## Starting
 Click on the *ParaView trame* icon from the Jupyter Lab Launcher or the *ParaView trame* item from the new dropdown in Jupyter Classic.  
 
-### Security
-In the current state, trame will launch an **unprotected, open website** on a local port. On multi-user machines, your data will be visible to anyone!!
-
 ### Jupyter-Server-Proxy
 [Jupyter-Server-Proxy](https://jupyter-server-proxy.readthedocs.io) lets you run arbitrary external processes alongside your notebook and provide web access to them. After installing this proxy, you can start trame using the *ParaView trame* entry in the launcher. It will start the server (which might take a few seconds) and open the website in a new tab.
 
